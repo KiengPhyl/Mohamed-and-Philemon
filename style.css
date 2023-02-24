@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+			margin: 0;
+			padding: 0;
+		}
+
+		html {
+			font-size: 20px;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			font-size: 32px;
+			font-weight: 200;
+			margin: 0;
+		}
+
+		p, input, select, textarea {
+			font-size: 20px;
+		}
+
+		code {
+			font-size: 24px;
+		}
+
+		form {
+			background-color: #007bff;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+			margin: 20px auto;
+			max-width: 600px;
+			padding: 20px;
+			width: 90%;
+		}
+
+		h1 {
+			color: crimson;
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		label {
+			display: block;
+			font-size: 28px;
+			font-weight: bold;
+			margin-bottom: 10px;
+		}
+        
+		input[type="text"],
+		input[type="number"],
+		input[type="email"],
+		select,
+		textarea {
+			border-radius: 3px;
+			border: 1px solid #ccc;
+			font-size: 20px;
+			padding: 10px;
+			width: 100%;
+		}
+
+		textarea {
+			height: 100px;
+		}
+
+		input[type="checkbox"] {
+			margin-right: 10px;
+		}
+
+		input[type="submit"] {
+			background-color: #007bff;
+			border: none;
+			border-radius: 3px;
+			color: red;
+			cursor: pointer;
+			font-size: 40px;
+			padding: 10px 20px;
+			margin-top: 20px;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #0062cc;
+			size-adjust: 100px;
+		}
+	
