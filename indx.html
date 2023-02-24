@@ -140,3 +140,29 @@
             background-color: #0062cc;
 
         }
+    </style>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+        <label for="goal">What do you want to be in coding languages:</label>
+        <select id="goal" name="goal" required>
+            <option value="">--Please select an option--</option>
+            <option value="javascript">JavaScript</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="python">Python</option>
+            <option value="other">Other</option>
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+
